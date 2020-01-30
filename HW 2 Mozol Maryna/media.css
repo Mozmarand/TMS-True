@@ -1,0 +1,55 @@
+<link rel="stylesheet" href="css/media.css">
+@media (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .column1 {
+
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 720px;
+    }
+    .custom-filling .cblock:last-child {
+        display: none;
+    }
+    .contact_form {
+        flex-direction: column;
+    }
+
+    .contact_form1 {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .contact_form2 {
+        width: 100%;
+    }
+    .city_pic {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 540px;
+    }
+
+    .pricing_slot:last-child {
+	    margin-right: 0;
+}
+    .pricing_slots {
+        display: none;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+}

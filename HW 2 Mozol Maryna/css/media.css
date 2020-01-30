@@ -1,0 +1,250 @@
+@media (max-width: 1405px) {
+    .container {
+        width: 992px;
+    }
+}
+
+@media (max-width: 1291px) {
+    .container {
+        width: 899px;
+    }
+
+    .city_pic {
+        display: none;
+    }
+
+    .social_container {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 1159px) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media (max-width: 1074px) {
+    .header_container {
+        justify-content: center;
+    }
+
+    .top_container {
+        display: block;
+        padding: 40px 10px;
+        justify-content: center;
+
+    }
+
+    .logo {
+        margin-right: 15px;
+    }
+
+    .description {
+        width: 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .description_text:before {
+        margin: 10px auto;
+    }
+
+    .top-form {
+        display: block;
+        margin: 35px auto;
+    }
+    
+    .top-form_input {
+        width: 250px;
+    }
+
+    .social_container {
+        display: block;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .social_title {
+        display: block;
+        margin: 35px auto;
+    }
+
+    .networks {
+        margin: 35px auto;
+    }
+
+    .pricing_slot {
+        padding: 3px;
+    }
+
+    .pricing_slots {
+        margin-top: 30px;
+        padding: 0;
+    }
+
+    .main_terms {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .price_terms {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 900px) {
+    .pricing {
+        padding: 20px 0px;
+    }
+
+    .tit {
+        font-size: 25px;
+    }
+
+    .pricing_container {
+        font-size: 13px;
+    }
+
+    .pricing_container h3 {
+        font-size: 20px;
+    }
+
+    .pricing_slots {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .pricing_slot {
+        margin-right: 0;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .price_terms {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 787px){
+    .header {
+        width: 100vw;
+    }
+
+    .rectangle {
+        width: 100%;
+    }
+    
+    .container{
+        width: 80%;
+    }
+
+    .features_title {
+        padding-left: 20px;
+    }
+    
+    .burger {
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: relative;
+    }
+
+    .burger:before, .burger:after {
+        content: "";
+    }
+
+    .burger:before{
+        top: 0;
+    }
+
+    .burger:after {
+        bottom: 0;
+    }
+
+    .burger.cross:before{
+        transform: rotateZ(45deg);
+        top: 50%;
+    }
+    
+    .burger.cross:after {
+        transform: rotateZ(-45deg);
+        top: 50%;
+    } 
+    
+    .burger.cross .burger_line {
+        display: none;
+    }
+    
+    .burger_line {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .burger_line, .burger:before, .burger:after {
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        background-color: #fff;
+        transition: .3s;
+    }
+    
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 200px;
+        background-color: black;
+        padding: 75px 0 0 75px;
+        box-sizing: border-box;
+        transform: translateX(-100%);
+        transition: .3s;
+    }
+
+    .menu.visible {
+        transform: translateX(0);
+        transition: .3s;
+    }
+
+    .bg {
+        display: none;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 50VW;
+        opacity: .5;
+        z-index: 998;
+    }
+
+    .bg.visible {
+        display: block;
+    }
+
+    .features_title {
+    width: 400px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+
+    .pricing_slots {
+        width: 100%;
+    }
+
+    .pricing_slot {
+        padding: 3px;
+    }
+
+    .social_container {
+        padding: 20px 0;
+    }
+}
