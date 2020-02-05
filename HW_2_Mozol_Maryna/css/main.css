@@ -47,6 +47,10 @@ a {
 	margin-right: 0;
 }
 
+.burger {
+	display: none;
+}
+
 .top {
 	background-color:rgba(0,0,0,.7);
 	background-repeat: repeat;
@@ -196,6 +200,7 @@ a {
 
 .features {
 	background-color: #f5f5f5;
+	box-shadow: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -531,13 +536,13 @@ h3 {
 	margin-left: -18px;
 }
 
-.rectangle:before {
+/* .rectangle:before {
 	border-color:#ffffff;
 	border-top-color: #ffffff;
 	border-width: 19px;
 	left: 50%;
 	margin-left: -19px;
-}
+} */
 
 .comments {
 	background-color: #ffffff;
